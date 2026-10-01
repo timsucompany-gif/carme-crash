@@ -133,7 +133,8 @@ h2 { margin: 0; font-family: var(--display); font-weight: 400; font-size: clamp(
 
 figure { margin: 0; }
 
-.looks img { width: 100%; border-radius: 12px; box-shadow: 0 16px 40px rgba(0, 0, 0, 0.45); }
+/* height: auto keeps each picture's own shape: without it the img's height attribute held it at 720 or 1080 px tall whatever its width. */
+.looks img { display: block; width: 100%; height: auto; border-radius: 12px; box-shadow: 0 16px 40px rgba(0, 0, 0, 0.45); }
 
 figcaption { margin-top: 10px; font-weight: 700; }
 
