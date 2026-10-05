@@ -1,4 +1,4 @@
-/* KAMI crash — site styles. Dark like the game's poster: charcoal, hazard yellow, crash red. */
+/* CARME crash — site styles. Dark like the game's poster: charcoal, hazard yellow, crash red. */
 
 :root {
   --bg: #121215;
@@ -54,7 +54,7 @@ a { color: var(--yellow); text-underline-offset: 3px; }
 
 .links { display: flex; gap: 20px; font-size: 15px; }
 
-.links a { color: var(--muted); text-decoration: none; }
+.links a { color: var(--muted); text-decoration: none; white-space: nowrap; }
 
 .links a:hover, .links a[aria-current="page"] { color: var(--ink); }
 
